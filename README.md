@@ -12,9 +12,9 @@ Deploy:
 Run the command: npm install & npm start
 
 Testing:
-Run the command: npm test
-Test case count: 12 units.
-Test case coverage: > 90%
+Run the command: npm test  
+Test case count: 12 units.  
+Test case coverage: > 90%  
 
 Report:
 See the report folder.
