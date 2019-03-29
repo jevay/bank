@@ -9,7 +9,7 @@ Features:
 2. Get the user account from the LowDB.
 
 Deploy:
-Run the command: npm start
+Run the command: npm install & npm start
 
 Testing:
 Run the command: npm test
