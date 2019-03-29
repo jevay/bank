@@ -3,6 +3,9 @@ const FileSync = require('lowdb/adapters/FileSync');
 var express = require('express');
 var router = express.Router();
 
+/**
+Get the bank information according to the account name.
+**/
 router.get('/get', function(req, res, next){
 	an = req.query.account_name;
 
@@ -15,6 +18,9 @@ router.get('/get', function(req, res, next){
 	res.status(200).end(JSON.stringify(response_data));
 });
 
+/**
+Create the user account information and store it in the lowDB.
+**/
 router.post('/create', function(req, res, next){
 	payment_method_list = ['LOCAL', 'SWIFT'];
 	bank_country_code_list = ['US', 'AU', 'CN'];
