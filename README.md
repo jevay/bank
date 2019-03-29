@@ -8,7 +8,7 @@ Features:
 1. Create the user accounts and store it in the lowDB.
 2. Get the user account from the LowDB.
 
-Deploy:
+Deploy:  
 Run the command: npm install & npm start
 
 Testing:   
