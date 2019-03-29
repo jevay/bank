@@ -11,7 +11,7 @@ Features:
 Deploy:
 Run the command: npm install & npm start
 
-Testing:
+Testing:   
 Run the command: npm test  
 Test case count: 12 units.  
 Test case coverage: > 90%  
